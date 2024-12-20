@@ -3,8 +3,10 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
+    private GameManager _gameManager;
     [SerializeField] private AudioSource backgroundMusicSource;
     [SerializeField] private AudioSource soundEffectSource;
+    [SerializeField] private AudioClip backgroundMusic;
 
     private void Awake()
     {
@@ -13,8 +15,12 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
+        backgroundMusicSource.clip = backgroundMusic;
         backgroundMusicSource.loop = true;
-        backgroundMusicSource.Play();
+        
+        _gameManager = GameManager.Instance;
+        _gameManager.AddListenerOnStart(() => backgroundMusicSource.Play());
+        _gameManager.AddListenerOnGameOver(() => backgroundMusicSource.Stop());
     }
 
     public void PlaySoundEffect(AudioClip clip)

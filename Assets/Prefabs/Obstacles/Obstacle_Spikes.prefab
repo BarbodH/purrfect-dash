@@ -144,6 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6150110447585383539}
   - component: {fileID: -4920674206770554092}
+  - component: {fileID: 5993511772787156518}
   m_Layer: 0
   m_Name: Obstacle_Spikes
   m_TagString: Obstacle
@@ -194,3 +195,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 6
+--- !u!114 &5993511772787156518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047305266027027777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eaa78185769b43bb86ae4bc66a25849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 6e7c097e353d64616a5776aaaa9a7509, type: 3}
