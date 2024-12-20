@@ -1,0 +1,93 @@
+# =============== #
+# Unity Generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+
+# Exclude compiled Asset Bundles and caches
+/[Aa]sset[Bb]undles/
+/[Cc]ache/
+[Aa]ssets/StreamingAssets/*
+
+# Exclude crash reports
+sys_crash.dmp
+sys_crash.log
+
+# =============== #
+# OS Generated    #
+# =============== #
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============== #
+# Visual Studio   #
+# =============== #
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.ide
+.idea/
+
+# =============== #
+# Logs and Temp   #
+# =============== #
+*.log
+*.temp
+*.tmproj
+
+# =============== #
+# TextMesh Pro    #
+# =============== #
+/Assets/TextMesh Pro/
+
+# =============== #
+# Build and Assets #
+# =============== #
+/Build/
+/Builds/
+/Assets/AssetStoreTools*
+
+# =============== #
+# Packages        #
+# =============== #
+/Packages/com.unity.collab-proxy/
+
+# =============== #
+# Unity Cloud Build #
+# =============== #
+/UnityCloudBuild/
+
+# =============== #
+# Exclude PlayFab data #
+# =============== #
+PlayFabEditorExtensions/
+
+# =============== #
+# JetBrains IDEs (Rider) #
+# =============== #
+.idea/
+*.iml
+.idea/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/modules
+
