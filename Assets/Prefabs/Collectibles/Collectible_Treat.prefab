@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3322553587161296528}
   - component: {fileID: 3860613019211463990}
   - component: {fileID: -372215953201168539}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collectible_Treat
   m_TagString: Collectible
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 7778597229922457649}
   - component: {fileID: 1327011548953475414}
   - component: {fileID: 7399440298184841032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Treat
   m_TagString: Untagged
   m_Icon: {fileID: 0}

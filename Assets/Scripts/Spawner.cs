@@ -70,6 +70,15 @@ public class Spawner : MonoBehaviour
                 obstacleRigidbody.simulated = false;
             }
         }
+
+        foreach (var collectible in GameObject.FindGameObjectsWithTag("Collectible"))
+        {
+            var collectibleRigidbody = collectible.GetComponent<Rigidbody2D>();
+            if (collectibleRigidbody != null)
+            {
+                collectibleRigidbody.simulated = false;
+            }
+        }
     }
 
     private static void RemoveObstacles()
@@ -77,6 +86,11 @@ public class Spawner : MonoBehaviour
         foreach (var obstacle in GameObject.FindGameObjectsWithTag("Obstacle"))
         {
             Destroy(obstacle);
+        }
+
+        foreach (var collectible in GameObject.FindGameObjectsWithTag("Collectible"))
+        {
+            Destroy(collectible);
         }
     }
 }
